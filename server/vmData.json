@@ -1,0 +1,159 @@
+{
+  "productInfoList": [
+    {
+      "productIndex": 1,
+      "productImg": "🥙",
+      "productName": "Bag",
+      "productPrice": "700"
+    },
+    {
+      "productIndex": 2,
+      "productImg": "🍮",
+      "productName": "Wine",
+      "productPrice": "1000"
+    },
+    {
+      "productIndex": 3,
+      "productImg": "🍭",
+      "productName": "Icecream",
+      "productPrice": "500"
+    },
+    {
+      "productIndex": 4,
+      "productImg": "🍨",
+      "productName": "Pastry",
+      "productPrice": "400"
+    },
+    {
+      "productIndex": 5,
+      "productImg": "🍲",
+      "productName": "Raspberries",
+      "productPrice": "700"
+    },
+    {
+      "productIndex": 6,
+      "productImg": "🥤",
+      "productName": "Cheese",
+      "productPrice": "500"
+    },
+    {
+      "productIndex": 7,
+      "productImg": "🍧",
+      "productName": "Gooseberry",
+      "productPrice": "300"
+    },
+    {
+      "productIndex": 8,
+      "productImg": "🍡",
+      "productName": "Soup",
+      "productPrice": "700"
+    },
+    {
+      "productIndex": 9,
+      "productImg": "🥧",
+      "productName": "Pastry",
+      "productPrice": "1000"
+    },
+    {
+      "productIndex": 10,
+      "productImg": "🍛",
+      "productName": "Campbells",
+      "productPrice": "900"
+    },
+    {
+      "productIndex": 11,
+      "productImg": "🍥",
+      "productName": "Chocolate",
+      "productPrice": "900"
+    },
+    {
+      "productIndex": 12,
+      "productImg": "🎂",
+      "productName": "Coffee",
+      "productPrice": "2000"
+    },
+    {
+      "productIndex": 13,
+      "productImg": "🌶️",
+      "productName": "Cinnamon",
+      "productPrice": "3000"
+    },
+    {
+      "productIndex": 14,
+      "productImg": "🥪",
+      "productName": "Pasta",
+      "productPrice": "1000"
+    },
+    {
+      "productIndex": 15,
+      "productImg": "🥓",
+      "productName": "Salmon",
+      "productPrice": "800"
+    },
+    {
+      "productIndex": 16,
+      "productImg": "🍒",
+      "productName": "Onions",
+      "productPrice": "800"
+    },
+    {
+      "productIndex": 17,
+      "productImg": "🥔",
+      "productName": "Pepper",
+      "productPrice": "500"
+    },
+    {
+      "productIndex": 18,
+      "productImg": "🍐",
+      "productName": "Star",
+      "productPrice": "400"
+    },
+    {
+      "productIndex": 19,
+      "productImg": "🍑",
+      "productName": "Aspic",
+      "productPrice": "200"
+    },
+    {
+      "productIndex": 20,
+      "productImg": "🥝",
+      "productName": "Nestea",
+      "productPrice": "10000"
+    }
+  ],
+  "wallet": [
+    {
+      "walletAmount": 10,
+      "numberCount": 0
+    },
+    {
+      "walletAmount": 50,
+      "numberCount": 1
+    },
+    {
+      "walletAmount": 100,
+      "numberCount": 5
+    },
+    {
+      "walletAmount": 500,
+      "numberCount": 5
+    },
+    {
+      "walletAmount": 1000,
+      "numberCount": 2
+    },
+    {
+      "walletAmount": 5000,
+      "numberCount": 2
+    },
+    {
+      "walletAmount": 10000,
+      "numberCount": 1
+    },
+    {
+      "walletAmount": 50000,
+      "numberCount": 0
+    }
+  ],
+  "totalAmount": 25050
+}

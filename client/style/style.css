@@ -1,0 +1,239 @@
+.wrap {
+  padding: 50px 0;
+  width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.product-view {
+  padding: 10px 20px;
+  width: 45%;
+  border: 3px solid #757575;
+  border-radius: 3px;
+  background-color: #757575;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.product li {
+  padding: 5px;
+  width: 25%;
+}
+
+.product li:hover {
+  background-color: #fff;
+}
+
+.product > li > button {
+  width: 100%;
+  background-color: #d1d1d1;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product > li > button:hover {
+  background: #787878;
+}
+
+.product > li.active > button {
+  box-shadow: 1px 1px 10px 1px rgba(255, 0, 0, 0.5);
+}
+
+.product-image {
+  position: relative;
+  height: 30px;
+  font-size: 20px;
+}
+
+.product-image > span {
+  z-index: 1;
+  position: absolute;
+  left: -5px;
+  bottom: -17px;
+  width: 14px;
+  height: 14px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.product-content {
+  position: relative;
+  left: -9px;
+  width: 137%;
+  height: 20px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.product-content:after {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  display: block;
+  clear: both;
+  content: "원";
+}
+
+.product-content > span {
+  font-weight: 600;
+  margin-right: -3px;
+}
+
+.product-select {
+  margin: 0 10px;
+  padding: 10px 20px;
+  width: 35%;
+  background-color: #ededed;
+  border-radius: 3px;
+}
+
+.input-amount {
+  margin-bottom: 20px;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.input-amount:after {
+  display: inline-block;
+  clear: both;
+  content: "원";
+  margin: 0 6px;
+}
+
+.select-number {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.13);
+}
+
+.select-number > ul {
+  display: grid;
+  background-color: #dddddd;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+}
+
+.select-number > ul > li {
+  padding: 5px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-number .select-button button {
+  font-size: 15px;
+  background-color: #87a5ff;
+}
+
+.select-number > ul > li > button {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 20px;
+  background: #a6a6a6;
+  border-radius: 6px;
+}
+
+.select-number > ul > li.active > button,
+.select-number > ul > li > button:hover {
+  background-color: #757575;
+  cursor: pointer;
+}
+
+.select-number .select-button > button:hover {
+  background-color: #6c84cc;
+}
+
+.message-window {
+  overflow-y: auto;
+  padding: 10px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.wallet {
+  width: 20%;
+  padding: 5px 10px;
+  background-color: #dedede;
+}
+
+.money-unit {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+  height: 43px;
+  line-height: 43px;
+  background-color: #ededed;
+}
+
+.money-unit button {
+  color: #fff;
+  font-size: 13px;
+  background-color: #a6a6a6;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.money-unit button:after {
+  display: inline-block;
+  margin-left: 2px;
+  clear: both;
+  content: "원";
+}
+
+.money-unit button:hover {
+  background-color: #757575;
+}
+
+.money-unit button,
+.money-unit span {
+  width: 50%;
+  text-align: center;
+}
+
+.money-unit span {
+  padding-right: 24px;
+  text-align: right;
+}
+
+.money-unit span:after {
+  margin-right: -18px;
+  margin-top: -43px;
+  display: block;
+  clear: both;
+  content: "개";
+}
+
+.total-money {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.total-money:after {
+  display: inline-block;
+  clear: both;
+  content: "원";
+  margin-left: 6px;
+}
