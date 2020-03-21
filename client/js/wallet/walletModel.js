@@ -27,7 +27,6 @@ class WalletModel extends Observable {
     if (selectedCnt <= 0) return;
     this.spendMoney(target, selectedCnt);
     this.deliverTotalAmount();
-    this.deliverInputAmount();
     this.deliverNotification();
   }
 
@@ -56,17 +55,6 @@ class WalletModel extends Observable {
     if (this.totalAmount < 0) return;
 
     this.notifyInfo.value = this.totalAmount;
-
-    this.notify(this.notifyInfo);
-  }
-
-  deliverInputAmount() {
-    const selectedMoney = event.target.innerText;
-
-    this.notifyInfo.target = document.querySelector(".input-amount");
-    this.inputMoney += Number(selectedMoney);
-
-    this.notifyInfo.value = this.inputMoney;
 
     this.notify(this.notifyInfo);
   }
