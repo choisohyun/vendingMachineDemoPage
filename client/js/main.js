@@ -8,7 +8,7 @@ const LOCAL_JSON_URL = "../../server/vmData.json";
 const REMOTE_JSON_URL = "http://localhost:8080/vmData";
 
 (async () => {
-  const res = await fetch(REMOTE_JSON_URL);
+  const res = await fetch(LOCAL_JSON_URL);
   // console.log("res", res);
   const vmData = await res.json();
   const data = await JSON.stringify(vmData);
